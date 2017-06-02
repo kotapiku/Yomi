@@ -35,13 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4519D1A81ECC72CC006A1582 /* Yomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Yomi.app; path = "/Users/kotapiku/Yomi/build/Debug-iphoneos/Yomi.app"; sourceTree = "<absolute>"; };
 		4519D1AB1ECC72CC006A1582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4519D1AD1ECC72CC006A1582 /* MainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGame.swift; sourceTree = "<group>"; };
 		4519D1B21ECC72CC006A1582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4519D1B51ECC72CC006A1582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4519D1B71ECC72CC006A1582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4519D1BC1ECC72CC006A1582 /* YomiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YomiTests.xctest; path = "/Users/kotapiku/Yomi/build/Debug-iphoneos/YomiTests.xctest"; sourceTree = "<absolute>"; };
 		4519D1D31ECE94A1006A1582 /* CardsChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsChoice.swift; sourceTree = "<group>"; };
 		4519D1D51ECEEEC9006A1582 /* CardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
 		4531F92C1ED42FCA0006C200 /* HudaSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudaSet.swift; sourceTree = "<group>"; };
@@ -52,6 +50,8 @@
 		45BAA6D51EE072AD00F0BEDF /* ionicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ionicons.swift; sourceTree = "<group>"; };
 		45BAA6E11EE169FB00F0BEDF /* Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
 		45BAA6E51EE16F8500F0BEDF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		45CA75AD1EE18486006F7E63 /* YomiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YomiTests.xctest; path = "/Users/kotapiku/Yomi/build/Debug-iphoneos/YomiTests.xctest"; sourceTree = "<absolute>"; };
+		45D514DA1EE17F5300D26EB0 /* Yomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Yomi.app; path = "/Users/kotapiku/Yomi/build/Debug-iphoneos/Yomi.app"; sourceTree = "<absolute>"; };
 		45F37BA51ED18941008624BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +120,7 @@
 			);
 			name = Yomi;
 			productName = Yomi;
-			productReference = 4519D1A81ECC72CC006A1582 /* Yomi.app */;
+			productReference = 45D514DA1EE17F5300D26EB0 /* Yomi.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4519D1BB1ECC72CC006A1582 /* YomiTests */ = {
@@ -138,7 +138,7 @@
 			);
 			name = YomiTests;
 			productName = YomiTests;
-			productReference = 4519D1BC1ECC72CC006A1582 /* YomiTests.xctest */;
+			productReference = 45CA75AD1EE18486006F7E63 /* YomiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
