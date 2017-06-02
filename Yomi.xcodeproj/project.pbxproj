@@ -11,7 +11,6 @@
 		4519D1AE1ECC72CC006A1582 /* MainGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519D1AD1ECC72CC006A1582 /* MainGame.swift */; };
 		4519D1B31ECC72CC006A1582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4519D1B21ECC72CC006A1582 /* Assets.xcassets */; };
 		4519D1B61ECC72CC006A1582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4519D1B41ECC72CC006A1582 /* LaunchScreen.storyboard */; };
-		4519D1C11ECC72CC006A1582 /* YomiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519D1C01ECC72CC006A1582 /* YomiTests.swift */; };
 		4519D1D41ECE94A1006A1582 /* CardsChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519D1D31ECE94A1006A1582 /* CardsChoice.swift */; };
 		4519D1D61ECEEEC9006A1582 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519D1D51ECEEEC9006A1582 /* CardInfo.swift */; };
 		4531F92D1ED42FCA0006C200 /* HudaSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531F92C1ED42FCA0006C200 /* HudaSet.swift */; };
@@ -36,15 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4519D1A81ECC72CC006A1582 /* Yomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4519D1A81ECC72CC006A1582 /* Yomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Yomi.app; path = "/Users/kotapiku/Yomi/build/Debug-iphoneos/Yomi.app"; sourceTree = "<absolute>"; };
 		4519D1AB1ECC72CC006A1582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4519D1AD1ECC72CC006A1582 /* MainGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGame.swift; sourceTree = "<group>"; };
 		4519D1B21ECC72CC006A1582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4519D1B51ECC72CC006A1582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4519D1B71ECC72CC006A1582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4519D1BC1ECC72CC006A1582 /* YomiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YomiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4519D1C01ECC72CC006A1582 /* YomiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YomiTests.swift; sourceTree = "<group>"; };
-		4519D1C21ECC72CC006A1582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4519D1BC1ECC72CC006A1582 /* YomiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YomiTests.xctest; path = "/Users/kotapiku/Yomi/build/Debug-iphoneos/YomiTests.xctest"; sourceTree = "<absolute>"; };
 		4519D1D31ECE94A1006A1582 /* CardsChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsChoice.swift; sourceTree = "<group>"; };
 		4519D1D51ECEEEC9006A1582 /* CardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
 		4531F92C1ED42FCA0006C200 /* HudaSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudaSet.swift; sourceTree = "<group>"; };
@@ -80,18 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				4519D1AA1ECC72CC006A1582 /* Yomi */,
-				4519D1BF1ECC72CC006A1582 /* YomiTests */,
-				4519D1A91ECC72CC006A1582 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		4519D1A91ECC72CC006A1582 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4519D1A81ECC72CC006A1582 /* Yomi.app */,
-				4519D1BC1ECC72CC006A1582 /* YomiTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4519D1AA1ECC72CC006A1582 /* Yomi */ = {
@@ -115,15 +101,6 @@
 				45BAA6E11EE169FB00F0BEDF /* Help.swift */,
 			);
 			path = Yomi;
-			sourceTree = "<group>";
-		};
-		4519D1BF1ECC72CC006A1582 /* YomiTests */ = {
-			isa = PBXGroup;
-			children = (
-				4519D1C01ECC72CC006A1582 /* YomiTests.swift */,
-				4519D1C21ECC72CC006A1582 /* Info.plist */,
-			);
-			path = YomiTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +172,7 @@
 				Base,
 			);
 			mainGroup = 4519D19F1ECC72CC006A1582;
-			productRefGroup = 4519D1A91ECC72CC006A1582 /* Products */;
+			productRefGroup = 4519D19F1ECC72CC006A1582;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -249,7 +226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4519D1C11ECC72CC006A1582 /* YomiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
