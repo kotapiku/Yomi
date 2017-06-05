@@ -97,11 +97,7 @@ class MainGame: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-    /*
-        let moshimoalert = UIAlertController(title: String(kirokunum[1]), message: "", preferredStyle: .alert)
-        moshimoalert.addAction(UIAlertAction(title: "いいえ", style: .cancel, handler: nil))
-        present(moshimoalert, animated: true, completion: nil)
-*/
+
         if kirokunum[0] == 0{
             randomary = (hudasets[choicenum][1] as! Array).enumerated().filter{$0.1 == 1}.map{$0.0}
             cardsnum = randomary.count
@@ -115,7 +111,7 @@ class MainGame: UIViewController {
             
         }else{
             let moshimoalert = UIAlertController(title: "続きからはじめますか?", message: "", preferredStyle: .alert)
-            moshimoalert.addAction(UIAlertAction(title: "はい", style: .destructive, handler: {(action:UIAlertAction!) in
+            moshimoalert.addAction(UIAlertAction(title: "はい", style: .default, handler: {(action:UIAlertAction!) in
                 self.index = self.kirokunum[1]
                 self.kirokuzyun = self.userdefaults.object(forKey: "kirokuzyun") as! [Int]
                 self.shimonoku.text = self.yomicards [self.kirokuzyun [self.index-2]][1]
