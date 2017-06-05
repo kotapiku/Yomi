@@ -84,13 +84,24 @@ class HudaSet: UIViewController,UITableViewDelegate, UITableViewDataSource{
 
     //MARK: Action
     @IBAction func helpbutton(_ sender: UIBarButtonItem) {
-        performSegue(withIdentifier: "HudaToHelp", sender: nil)
+        let hpvc = storyboard!.instantiateViewController(withIdentifier: "Help")
+        hpvc.modalTransitionStyle = .crossDissolve
+        
+        self.present(hpvc, animated: true, completion: nil)
     }
+    
     @IBAction func addbutton(_ sender: UIBarButtonItem) {
-        performSegue(withIdentifier: "HudaToChoice", sender: nil)
+        let chvc = storyboard!.instantiateViewController(withIdentifier: "Choice")
+        chvc.modalTransitionStyle = .crossDissolve
+        
+        self.present(chvc, animated: true, completion: nil)
     }
+    
     @IBAction func gamestartbutton(_ sender: UIButton) {
-        performSegue(withIdentifier: "GameStart", sender: nil)
+        let gmvc = storyboard!.instantiateViewController(withIdentifier: "Game")
+        gmvc.modalTransitionStyle = .crossDissolve
+        
+        self.present(gmvc, animated: true, completion: nil)
     }
     
 }

@@ -13,7 +13,7 @@
         <!--Help-->
         <scene sceneID="qxD-af-kR9">
             <objects>
-                <viewController id="Uz7-bP-Nsy" customClass="Help" customModule="Yomi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Help" id="Uz7-bP-Nsy" customClass="Help" customModule="Yomi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lDb-jo-6Rq"/>
                         <viewControllerLayoutGuide type="bottom" id="7lm-8K-df2"/>
@@ -71,7 +71,7 @@
         <!--Main Game-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="MainGame" customModule="Yomi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Game" id="BYZ-38-t0r" customClass="MainGame" customModule="Yomi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -225,7 +225,7 @@
         <!--HudaSet-->
         <scene sceneID="EvV-KR-EH3">
             <objects>
-                <viewController title="HudaSet" id="NF6-FR-Jxu" customClass="HudaSet" customModule="Yomi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Huda" title="HudaSet" id="NF6-FR-Jxu" customClass="HudaSet" customModule="Yomi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pLk-6t-IC1"/>
                         <viewControllerLayoutGuide type="bottom" id="T8e-k1-Zi6"/>
@@ -345,7 +345,7 @@
         <!--CardsChoice-->
         <scene sceneID="bEJ-EA-oug">
             <objects>
-                <viewController storyboardIdentifier="CardsChoice" title="CardsChoice" id="mqk-a1-axG" customClass="CardsChoice" customModule="Yomi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Choice" title="CardsChoice" id="mqk-a1-axG" customClass="CardsChoice" customModule="Yomi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fFt-37-66O"/>
                         <viewControllerLayoutGuide type="bottom" id="Cb1-zH-QnU"/>
@@ -479,6 +479,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wq0-qn-TG5"/>
+        <segue reference="tuj-9g-dVM"/>
     </inferredMetricsTieBreakers>
 </document>

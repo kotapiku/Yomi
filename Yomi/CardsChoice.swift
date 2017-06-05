@@ -104,8 +104,11 @@ class CardsChoice: UIViewController, UITableViewDelegate, UITableViewDataSource{
                     if settext.text != "" && self.choicecards.index(of: 1) != nil{
                         hudasets += [[settext.text!,self.choicecards]]
                         userdefaults.set(hudasets, forKey: "hudasets")
-                        self.performSegue(withIdentifier: "ChoiceToHuda", sender: nil)
                         
+                        let hdvc = self.storyboard!.instantiateViewController(withIdentifier: "Huda")
+                        hdvc.modalTransitionStyle = .crossDissolve
+                        
+                        self.present(hdvc, animated: true, completion: nil)
                     }
                 }
             }
@@ -141,9 +144,11 @@ class CardsChoice: UIViewController, UITableViewDelegate, UITableViewDataSource{
     }
     
     @IBAction func backbutton(_ sender: UIBarButtonItem) {
-        performSegue(withIdentifier: "ChoiceToHuda", sender: nil)
+        let hdvc = storyboard!.instantiateViewController(withIdentifier: "Huda")
+        hdvc.modalTransitionStyle = .crossDissolve
+        
+        self.present(hdvc, animated: true, completion: nil)
     }
  
-    
 }
 

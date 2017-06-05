@@ -88,13 +88,11 @@ class MainGame: UIViewController {
         
         
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-       
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func timerUpdate() {
@@ -202,8 +200,11 @@ class MainGame: UIViewController {
     }
     @IBAction func tyuudan(_ sender: UIBarButtonItem) {
         let alert = UIAlertController(title: "試合を終了しますか？", message: "", preferredStyle: .alert)
+        let hdvc = storyboard!.instantiateViewController(withIdentifier: "Huda")
+        hdvc.modalTransitionStyle = .crossDissolve
+
+        alert.addAction(UIAlertAction(title: "はい", style: .destructive, handler: {(action:UIAlertAction!) in self.present(hdvc, animated: true, completion: nil)}))
         
-        alert.addAction(UIAlertAction(title: "はい", style: .destructive, handler: {(action:UIAlertAction!) in self.performSegue(withIdentifier: "GameToHuda", sender: nil)}))
         alert.addAction(UIAlertAction(title: "いいえ", style: .cancel, handler: nil))
         
         present(alert, animated: true, completion: nil)

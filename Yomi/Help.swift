@@ -20,7 +20,10 @@ class Help: UIViewController{
     }
     
     @IBAction func helptohudabutton(_ sender: UIBarButtonItem) {
-        performSegue(withIdentifier: "HelpToHuda", sender: nil)
+        let hdvc = storyboard!.instantiateViewController(withIdentifier: "Huda")
+        hdvc.modalTransitionStyle = .crossDissolve
+        
+        self.present(hdvc, animated: true, completion: nil)
     }
     
 }
